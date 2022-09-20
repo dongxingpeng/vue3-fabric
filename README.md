@@ -1,11 +1,8 @@
-# Vue 3 + Typescript + Vite
-
-This template should help get you started developing with Vue 3 and Typescript in Vite.
-
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
-
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+# 说明
+参考了网上一些fabric的使用方法，采用vue3.2.6+fabric4.6.0开发的一个图片绘制区域的功能，
+# 主要技术栈
+vue3
+typescript
+fabric
+# 效果图
+![vue3+fabric绘制效果](https://img-blog.csdnimg.cn/9eb92b8c24a64d2d8f6d5e92ed0cdd7b.gif#pic_center)
